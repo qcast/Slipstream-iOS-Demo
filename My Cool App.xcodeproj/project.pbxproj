@@ -14,6 +14,7 @@
 		637FE81A1B9C0D6D00919717 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637FE8191B9C0D6D00919717 /* Images.xcassets */; };
 		637FE81D1B9C0D6D00919717 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 637FE81B1B9C0D6D00919717 /* LaunchScreen.xib */; };
 		637FE8291B9C0D6D00919717 /* My_Cool_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 637FE8281B9C0D6D00919717 /* My_Cool_AppTests.m */; };
+		9A1F7DD81B9C3240009DBA29 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F7DD71B9C3240009DBA29 /* PhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		637FE8221B9C0D6D00919717 /* My Cool AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Cool AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		637FE8271B9C0D6D00919717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		637FE8281B9C0D6D00919717 /* My_Cool_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Cool_AppTests.m; sourceTree = "<group>"; };
+		9A1F7DD61B9C3240009DBA29 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		9A1F7DD71B9C3240009DBA29 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		637FE80B1B9C0D6D00919717 /* My Cool App */ = {
 			isa = PBXGroup;
 			children = (
+				9A1F7DD61B9C3240009DBA29 /* PhotoCell.h */,
+				9A1F7DD71B9C3240009DBA29 /* PhotoCell.m */,
 				637FE8101B9C0D6D00919717 /* AppDelegate.h */,
 				637FE8111B9C0D6D00919717 /* AppDelegate.m */,
 				637FE8131B9C0D6D00919717 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A1F7DD81B9C3240009DBA29 /* PhotoCell.m in Sources */,
 				637FE8151B9C0D6D00919717 /* ViewController.m in Sources */,
 				637FE8121B9C0D6D00919717 /* AppDelegate.m in Sources */,
 				637FE80F1B9C0D6D00919717 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				637FE82E1B9C0D6D00919717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		637FE82F1B9C0D6D00919717 /* Build configuration list for PBXNativeTarget "My Cool AppTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				637FE8311B9C0D6D00919717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
